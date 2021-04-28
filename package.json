@@ -1,0 +1,28 @@
+{
+  "name": "zybooks.js",
+  "version": "0.0.1",
+  "description": "If I write a program that does all my ZyBooks, can I exempt from ZyBooks? Please?",
+  "main": "dist/index.js",
+  "repository": "https://github.com/EricRabil/zybooks.js.git",
+  "author": "Eric Rabil <ericjrabil@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -p . --watch",
+    "start": "DEBUG=zybooks node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/inquirer": "^7.3.1",
+    "@types/jsdom": "^16.2.10",
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "inquirer": "^8.0.0",
+    "jsdom": "^16.5.3"
+  }
+}
